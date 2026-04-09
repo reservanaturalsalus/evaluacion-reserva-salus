@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Evaluación – Reserva Natural Salus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  styles.css
+</head>
+<body>
+
+  <header class="header">
+      img/SALUS_RESERVA.png
+      <h1>Contanos sobre tu aventura en la Reserva Natural Salus</h1>
+  </header>
+
+  <main>
+    <form id="salusForm">
+
+      <label>¿Cómo calificarías tu experiencia?</label>
+      <select name="experiencia" required>
+        <option value="">Elegir…</option>
+        <option value="1">1 ⭐</option>
+        <option value="2">2 ⭐⭐</option>
+        <option value="3">3 ⭐⭐⭐</option>
+        <option value="4">4 ⭐⭐⭐⭐</option>
+        <option value="5">5 ⭐⭐⭐⭐⭐</option>
+      </select>
+
+      <label>¿Qué fue lo que más te gustó?</label>
+      <textarea name="gustos" required></textarea>
+
+      <label>¿Qué mejorarías?</label>
+      <textarea name="mejoras"></textarea>
+
+      <button type="submit">Enviar</button>
+
+      <p id="mensaje"></p>
+    </form>
+  </main>
+
+  script.js
+
+</body>
+</html>
